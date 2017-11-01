@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  codestacks.cn.net:
+    image: codestacks.cn.net
+    build:
+      context: ./CODESTACKS.CN.NET
+      dockerfile: Dockerfile
